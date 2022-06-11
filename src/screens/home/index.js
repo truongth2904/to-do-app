@@ -3,6 +3,7 @@ import React, {useCallback, useEffect, useState} from 'react';
 import {
   Alert,
   FlatList,
+  StatusBar,
   Text,
   TextInput,
   TouchableOpacity,
@@ -91,6 +92,7 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
+      <StatusBar backgroundColor={'#99e868'}/>
       <Text style={styles.textTitle}>TO DO LIST</Text>
 
       <View style={styles.view}>

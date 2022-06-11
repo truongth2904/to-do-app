@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     backgroundColor: '#99e868',
     paddingVertical: 10,
+    fontWeight:'bold'
   },
   textInput: {
     margin: 20,
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
     color: 'grey',
   },
   view: {
-    backgroundColor: '#68e8e8',
+    backgroundColor: 'white',
     flex: 1,
     paddingBottom: 50,
     borderTopRightRadius: 30,
